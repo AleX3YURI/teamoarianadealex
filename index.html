@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Que el mundo espere</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <main class="escena">
+
+    <img
+      class="paisaje"
+      src="paisaje.jpg"
+      alt="Una colina tranquila bajo la lluvia"
+    >
+
+    <div class="niebla niebla-1"></div>
+    <div class="niebla niebla-2"></div>
+
+    <!-- Lluvia y salpicaduras -->
+    <canvas id="lluvia"></canvas>
+
+    <!-- Gotas sobre el cristal -->
+    <canvas id="cristal"></canvas>
+
+    <div class="sombra"></div>
+
+    <!-- FRASE PRINCIPAL: puedes cambiarla -->
+    <div class="frase-lluvia">
+      <p id="miFrase">
+        El mundo puede esperar... y yo también, con tal de que algun dia este a tu lado.
+      </p>
+    </div>
+     <!-- CONTROLES -->
+    <div class="controles">
+      <button id="botonLluvia">Pausar lluvia</button>
+      <button id="botonGotas">Gotas en el cristal: sí</button>
+      <button id="botonTexto">Ocultar texto</button>
+      </div>
+  </main>
+</body>
+</html>
